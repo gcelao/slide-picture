@@ -1,0 +1,136 @@
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+}
+.bg1
+{
+    background: url(../res/img/phone1.jpg) no-repeat center fixed;
+    background-size:100% 100vh;
+}
+
+.bg2
+{
+    background: url(../res/img/phone2.jpg) no-repeat center fixed;
+    background-size:100% 100vh;
+}
+
+.bg3
+{
+    background: url(../res/img/phone3.jpg) no-repeat center fixed;
+    background-size:100% 100vh;
+}
+
+.bg4
+{
+    background: url(../res/img/phone4.jpg) no-repeat center fixed;
+    background-size:100% 100vh;
+}
+
+.bg5
+{
+    background: url(../res/img/phone5.jpg) no-repeat center fixed;
+    background-size:100% 100vh;
+}
+
+.bg6
+{
+    background: url(../res/img/phone6.jpg) no-repeat center fixed;
+    background-size:100% 100vh;
+}
+
+.bg7
+{
+    background: url(../res/img/phone7.jpg) no-repeat center fixed;
+    background-size:100% 100vh;
+}
+
+/*边栏*/
+#phoneStyle
+{
+    width: 165px;
+    height: 654px;
+    position: fixed;
+    top: 30px;
+    right: 8px;
+    z-index: 1;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7
+{
+    width: 165px;
+    height: 94px;
+}
+
+.c1
+{
+    background: url(../res/img/phoneStyle.png) no-repeat 0 -6px;
+}
+
+.c2
+{
+    background: url(../res/img/phoneStyle.png) no-repeat 0 -100px;
+}
+
+.c3
+{
+    background: url(../res/img/phoneStyle.png) no-repeat 0 -192px;
+}
+
+.c4
+{
+    background: url(../res/img/phoneStyle.png) no-repeat 0 -285px;
+}
+
+.c5
+{
+    background: url(../res/img/phoneStyle.png) no-repeat 0 -377px;
+}
+
+.c6
+{
+    background: url(../res/img/phoneStyle.png) no-repeat 0 -469px;
+}
+
+.c7
+{
+    background: url(../res/img/phoneStyle.png) no-repeat 0 -561px;
+}
+
+.c1:hover
+{
+    background-position: -9px -6px;
+}
+
+.c2:hover
+{
+    background-position: -9px -100px;
+}
+
+.c3:hover
+{
+    background-position: -9px -192px;
+}
+
+.c4:hover
+{
+    background-position: -9px -285px;
+}
+
+.c5:hover
+{
+    background-position: -9px -377px;
+}
+
+.c6:hover
+{
+    background-position: -9px -469px;
+}
+
+.c7:hover
+{
+    background-position: -9px -561px;
+}
